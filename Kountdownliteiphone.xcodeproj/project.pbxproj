@@ -22,6 +22,28 @@
 		AA33D60F181358BB0060B572 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA33D5F3181358BA0060B572 /* CoreData.framework */; };
 		AA33D617181358BB0060B572 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA33D615181358BB0060B572 /* InfoPlist.strings */; };
 		AA33D619181358BB0060B572 /* KountdownliteiphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D618181358BB0060B572 /* KountdownliteiphoneTests.m */; };
+		AA33D62B181358E30060B572 /* countdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D623181358E30060B572 /* countdownViewController.m */; };
+		AA33D62C181358E30060B572 /* countdownTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D625181358E30060B572 /* countdownTableViewController.m */; };
+		AA33D62D181358E30060B572 /* addEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D627181358E30060B572 /* addEventViewController.m */; };
+		AA33D62E181358E30060B572 /* eventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D62A181358E30060B572 /* eventDetailViewController.m */; };
+		AA33D63C181359380060B572 /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D631181359380060B572 /* MZAppearance.m */; };
+		AA33D63D181359380060B572 /* MZFormSheetBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D633181359380060B572 /* MZFormSheetBackgroundWindow.m */; };
+		AA33D63E181359380060B572 /* MZFormSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D635181359380060B572 /* MZFormSheetController.m */; };
+		AA33D63F181359380060B572 /* MZFormSheetSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D637181359380060B572 /* MZFormSheetSegue.m */; };
+		AA33D640181359380060B572 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D639181359380060B572 /* NSInvocation+Copy.m */; };
+		AA33D641181359380060B572 /* UIImage+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = AA33D63B181359380060B572 /* UIImage+Additional.m */; };
+		AA33D6431813595C0060B572 /* kountdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA33D6421813595C0060B572 /* kountdown.storyboard */; };
+		AA33D64B1816344C0060B572 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D6451816344C0060B572 /* 29.png */; };
+		AA33D64C1816344C0060B572 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D6461816344C0060B572 /* 40.png */; };
+		AA33D64D1816344C0060B572 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D6471816344C0060B572 /* 58.png */; };
+		AA33D64E1816344C0060B572 /* 76.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D6481816344C0060B572 /* 76.png */; };
+		AA33D64F1816344C0060B572 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D6491816344C0060B572 /* 80.png */; };
+		AA33D6501816344C0060B572 /* 152.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D64A1816344C0060B572 /* 152.png */; };
+		AA33D652181634710060B572 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D651181634710060B572 /* 1024.png */; };
+		AA33D65C181635B00060B572 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D65B181635B00060B572 /* 120.png */; };
+		AA33D65F181637140060B572 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D65D181637140060B572 /* splash.png */; };
+		AA33D660181637140060B572 /* splashr4.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D65E181637140060B572 /* splashr4.png */; };
+		AA33D662181638AA0060B572 /* white-92.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33D661181638AA0060B572 /* white-92.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +75,39 @@
 		AA33D614181358BB0060B572 /* KountdownliteiphoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KountdownliteiphoneTests-Info.plist"; sourceTree = "<group>"; };
 		AA33D616181358BB0060B572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA33D618181358BB0060B572 /* KountdownliteiphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KountdownliteiphoneTests.m; sourceTree = "<group>"; };
+		AA33D622181358E30060B572 /* countdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countdownViewController.h; sourceTree = "<group>"; };
+		AA33D623181358E30060B572 /* countdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countdownViewController.m; sourceTree = "<group>"; };
+		AA33D624181358E30060B572 /* countdownTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countdownTableViewController.h; sourceTree = "<group>"; };
+		AA33D625181358E30060B572 /* countdownTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countdownTableViewController.m; sourceTree = "<group>"; };
+		AA33D626181358E30060B572 /* addEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addEventViewController.h; sourceTree = "<group>"; };
+		AA33D627181358E30060B572 /* addEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addEventViewController.m; sourceTree = "<group>"; };
+		AA33D628181358E30060B572 /* countdownModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countdownModal.h; sourceTree = "<group>"; };
+		AA33D629181358E30060B572 /* eventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventDetailViewController.h; sourceTree = "<group>"; };
+		AA33D62A181358E30060B572 /* eventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eventDetailViewController.m; sourceTree = "<group>"; };
+		AA33D630181359380060B572 /* MZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAppearance.h; sourceTree = "<group>"; };
+		AA33D631181359380060B572 /* MZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAppearance.m; sourceTree = "<group>"; };
+		AA33D632181359380060B572 /* MZFormSheetBackgroundWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindow.h; sourceTree = "<group>"; };
+		AA33D633181359380060B572 /* MZFormSheetBackgroundWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindow.m; sourceTree = "<group>"; };
+		AA33D634181359380060B572 /* MZFormSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetController.h; sourceTree = "<group>"; };
+		AA33D635181359380060B572 /* MZFormSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetController.m; sourceTree = "<group>"; };
+		AA33D636181359380060B572 /* MZFormSheetSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetSegue.h; sourceTree = "<group>"; };
+		AA33D637181359380060B572 /* MZFormSheetSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetSegue.m; sourceTree = "<group>"; };
+		AA33D638181359380060B572 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		AA33D639181359380060B572 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		AA33D63A181359380060B572 /* UIImage+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additional.h"; sourceTree = "<group>"; };
+		AA33D63B181359380060B572 /* UIImage+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additional.m"; sourceTree = "<group>"; };
+		AA33D6421813595C0060B572 /* kountdown.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = kountdown.storyboard; sourceTree = "<group>"; };
+		AA33D6451816344C0060B572 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		AA33D6461816344C0060B572 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		AA33D6471816344C0060B572 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		AA33D6481816344C0060B572 /* 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76.png; sourceTree = "<group>"; };
+		AA33D6491816344C0060B572 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		AA33D64A1816344C0060B572 /* 152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152.png; sourceTree = "<group>"; };
+		AA33D651181634710060B572 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		AA33D65B181635B00060B572 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		AA33D65D181637140060B572 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		AA33D65E181637140060B572 /* splashr4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashr4.png; sourceTree = "<group>"; };
+		AA33D661181638AA0060B572 /* white-92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-92.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +170,20 @@
 		AA33D5F5181358BA0060B572 /* Kountdownliteiphone */ = {
 			isa = PBXGroup;
 			children = (
+				AA33D644181634390060B572 /* Images */,
+				AA33D62F181359380060B572 /* MZFormSheetController */,
+				AA33D6421813595C0060B572 /* kountdown.storyboard */,
 				AA33D5FE181358BA0060B572 /* kountdownAppDelegate.h */,
 				AA33D5FF181358BA0060B572 /* kountdownAppDelegate.m */,
+				AA33D622181358E30060B572 /* countdownViewController.h */,
+				AA33D623181358E30060B572 /* countdownViewController.m */,
+				AA33D624181358E30060B572 /* countdownTableViewController.h */,
+				AA33D625181358E30060B572 /* countdownTableViewController.m */,
+				AA33D626181358E30060B572 /* addEventViewController.h */,
+				AA33D627181358E30060B572 /* addEventViewController.m */,
+				AA33D628181358E30060B572 /* countdownModal.h */,
+				AA33D629181358E30060B572 /* eventDetailViewController.h */,
+				AA33D62A181358E30060B572 /* eventDetailViewController.m */,
 				AA33D604181358BA0060B572 /* Images.xcassets */,
 				AA33D601181358BA0060B572 /* Kountdownliteiphone.xcdatamodeld */,
 				AA33D5F6181358BA0060B572 /* Supporting Files */,
@@ -151,6 +218,43 @@
 				AA33D615181358BB0060B572 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA33D62F181359380060B572 /* MZFormSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				AA33D630181359380060B572 /* MZAppearance.h */,
+				AA33D631181359380060B572 /* MZAppearance.m */,
+				AA33D632181359380060B572 /* MZFormSheetBackgroundWindow.h */,
+				AA33D633181359380060B572 /* MZFormSheetBackgroundWindow.m */,
+				AA33D634181359380060B572 /* MZFormSheetController.h */,
+				AA33D635181359380060B572 /* MZFormSheetController.m */,
+				AA33D636181359380060B572 /* MZFormSheetSegue.h */,
+				AA33D637181359380060B572 /* MZFormSheetSegue.m */,
+				AA33D638181359380060B572 /* NSInvocation+Copy.h */,
+				AA33D639181359380060B572 /* NSInvocation+Copy.m */,
+				AA33D63A181359380060B572 /* UIImage+Additional.h */,
+				AA33D63B181359380060B572 /* UIImage+Additional.m */,
+			);
+			path = MZFormSheetController;
+			sourceTree = "<group>";
+		};
+		AA33D644181634390060B572 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AA33D661181638AA0060B572 /* white-92.png */,
+				AA33D65D181637140060B572 /* splash.png */,
+				AA33D65E181637140060B572 /* splashr4.png */,
+				AA33D651181634710060B572 /* 1024.png */,
+				AA33D6451816344C0060B572 /* 29.png */,
+				AA33D6461816344C0060B572 /* 40.png */,
+				AA33D6471816344C0060B572 /* 58.png */,
+				AA33D6481816344C0060B572 /* 76.png */,
+				AA33D6491816344C0060B572 /* 80.png */,
+				AA33D65B181635B00060B572 /* 120.png */,
+				AA33D64A1816344C0060B572 /* 152.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +333,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA33D6501816344C0060B572 /* 152.png in Resources */,
+				AA33D64C1816344C0060B572 /* 40.png in Resources */,
+				AA33D662181638AA0060B572 /* white-92.png in Resources */,
+				AA33D652181634710060B572 /* 1024.png in Resources */,
+				AA33D64F1816344C0060B572 /* 80.png in Resources */,
+				AA33D65F181637140060B572 /* splash.png in Resources */,
+				AA33D64B1816344C0060B572 /* 29.png in Resources */,
 				AA33D5FA181358BA0060B572 /* InfoPlist.strings in Resources */,
 				AA33D605181358BA0060B572 /* Images.xcassets in Resources */,
+				AA33D660181637140060B572 /* splashr4.png in Resources */,
+				AA33D64D1816344C0060B572 /* 58.png in Resources */,
+				AA33D65C181635B00060B572 /* 120.png in Resources */,
+				AA33D64E1816344C0060B572 /* 76.png in Resources */,
+				AA33D6431813595C0060B572 /* kountdown.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +365,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA33D63E181359380060B572 /* MZFormSheetController.m in Sources */,
+				AA33D63C181359380060B572 /* MZAppearance.m in Sources */,
+				AA33D62B181358E30060B572 /* countdownViewController.m in Sources */,
+				AA33D62D181358E30060B572 /* addEventViewController.m in Sources */,
 				AA33D603181358BA0060B572 /* Kountdownliteiphone.xcdatamodeld in Sources */,
+				AA33D641181359380060B572 /* UIImage+Additional.m in Sources */,
 				AA33D600181358BA0060B572 /* kountdownAppDelegate.m in Sources */,
+				AA33D62E181358E30060B572 /* eventDetailViewController.m in Sources */,
+				AA33D62C181358E30060B572 /* countdownTableViewController.m in Sources */,
+				AA33D63F181359380060B572 /* MZFormSheetSegue.m in Sources */,
 				AA33D5FC181358BA0060B572 /* main.m in Sources */,
+				AA33D63D181359380060B572 /* MZFormSheetBackgroundWindow.m in Sources */,
+				AA33D640181359380060B572 /* NSInvocation+Copy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
