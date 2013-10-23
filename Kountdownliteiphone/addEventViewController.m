@@ -93,9 +93,7 @@
 }
 
 -(void) dismissAddEventModal:(id)sender{
-    [self dismissFormSheetControllerAnimated:YES completionHandler:^(MZFormSheetController *formSheetController) {
-        [delegate reloadList];
-    }];
+    self dismissViewControllerAnimated:YES completion:void;
 
 }
 
